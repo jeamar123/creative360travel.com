@@ -1,0 +1,390 @@
+/*
+Theme Name: Creative 360 Travel and Tours Theme
+Theme URI: 
+Author: Billy Joel Ranario
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: 
+*/
+
+/*
+orange: ff3c01;
+red: ba0400;
+*/
+
+
+/* ---------* Fonts *---------------- */
+@import url('fonts.css') screen;
+@import url('plugins.css') screen;
+/* ---------* end: Fonts *----------- */
+
+/* ---------* Reset CSS *------------ */
+* { 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+}
+body {
+	font-family: raleway-reg, arial, sans-serif;	
+}
+h1 { 
+    font-size: 2.2em; 
+} 
+h2 { 
+    font-size: 2.0em;     
+} 
+h3 { 
+    font-size: 1.8em; 
+} 
+h4 { 
+    font-size: 1.6em;     
+} 
+h5 { 
+    font-size: 1.4em;     
+} 
+p { 
+    font-size: 1.2em;     
+}
+/*
+/* ---------* end: Reset CSS *------- */
+
+
+/* ---------* Header *---------------- */
+header {
+    position: relative;
+    top: 0;    
+    transition: all 0.7s ease-in-out;
+    webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+.social-links-wrapper {
+    float: right;
+    text-align: right;
+    margin-top: 15px;        
+}
+.social-links-wrapper a {
+	text-decoration: none;
+    margin-right: 2px;    
+}
+.social-links {
+    position: relative;
+    top: -12px;
+    text-align: left;
+}
+.contact-info-top p {
+	margin: 0;
+	font-size: 21px;
+    /*color: #B12F2A;*/
+	color: #777;
+}
+.top-heading-content {
+    background-color: #fefefe;
+    padding: 15px 0;
+    /*box-shadow: 1px 1px 5px #EAEAEA;*/
+    position: relative;
+    z-index: 100;     	
+}
+.logo-wrapper {
+	float: left;
+    margin-left: 30px;	
+}
+.logo-wrapper img {
+    width: 255px;
+}
+.main-navigation {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    background: rgba( 186,4,0, 0.7 );
+    /*background: rgba(237, 0, 7, 0.7);*/
+    /*background: rgba(241, 94, 39, 0.7);*/
+    /*background: rgba( 255,255,255, 0.8 );*/
+    /*border-bottom: 1px solid #eee;*/
+    transition: all 0.4s ease-in-out;
+    webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.animate-header {
+  /*  position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 101;*/
+}
+#main-menu-wrapper {
+	margin-bottom: 0;
+    border: none;
+}
+#main-menu li a {
+    text-transform: uppercase;
+    color: #fff;
+    /*color: #999;*/
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: all 0.4s ease-in-out;
+    webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;    
+}
+#search-nav {
+    width: 30%;
+    margin-top: 7px;
+}
+#searchform .search-input {
+    float: right;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    padding-left: 1px;
+    color: #fff; 
+    box-shadow: none;    
+}
+#searchform .search-input:focus {
+    box-shadow: none;    
+}
+#searchform .search-input::-webkit-input-placeholder { 
+   color: #efefef;
+}
+#searchform .search-input:-moz-placeholder { /* Firefox 18- */
+   color: #efefef;  
+}
+#searchform .search-input::-moz-placeholder {  /* Firefox 19+ */
+   color: #efefef;  
+}
+#searchform .search-input:-ms-input-placeholder {  
+   color: #efefef;  
+}
+#searchform .input-group-btn {
+    right: 25px;  
+}
+#searchsubmit {
+    background-color: transparent;
+    color: #efefef;
+    border: none;
+    position: relative;
+    z-index: 10;    
+}
+#searchsubmit i {
+    transform: rotate(77deg);
+    -ms-transform: rotate(77deg);
+    -webkit-transform: rotate(77deg);
+}
+/* ---------* end: Header *----------- */
+
+
+/* ---------* Body *------------------ */
+.single-content.parallax-window-wrapper {
+    padding-bottom: 0;
+}
+.parallax-window {
+    min-height: 350px;
+    color: #fff;
+    padding-top: 50px;  
+}
+.parallax-window h1 {
+    margin-bottom: 3px;
+    font-size: 40px;
+}
+.parallax-window p {
+    margin-bottom: 48px;
+    margin-top: 10px;   
+}
+.btn-dark {
+    background-color: #292929;
+    color: #fff;
+}
+.btn-dark:hover {
+    background-color: #000;
+    color: #fff;
+}
+.btn-dark:hover .fa {
+    color: #E56E2B;
+}
+.btn-dark .fa {
+    font-size: 2.4em;
+    margin-right: 14px;
+}
+.btn-dark span {
+    position: relative;
+    bottom: 8px;
+    color: #fff;    
+}
+/* ---------* end: Body *------------- */
+
+
+/* ---------* Footer *---------------- */
+#secondary-level-footer {
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-logo-wrapper img {
+    /*width: 350px;*/
+}
+.content-details h3 {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 8px;    
+}
+#copyright {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*background-color: #444040;*/
+    background-color: #BA0400;
+    color: #fff;    
+}
+#copyright p {
+    font-size: 11px;
+    color: #fff;
+}
+#copyright p a {
+    color: #fff;
+}
+/* ---------* end: Footer *----------- */
+
+
+/* ---------* Custom *---------------- */
+.remove-margin {
+	margin: 0;
+}
+.remove-side-padding {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.border-red {
+	height: 5px;
+	width: 100%;
+	background-color: #ba0400;
+    /*background-color: #ed0007;*/
+    /*background-color: #F05319;*/
+}
+.icon {
+	background: url( ../img/socials.png );
+	background-repeat: no-repeat;
+    display: inline-block;	
+    height: 35px;
+    width: 35px;	
+    background-size: 120px;
+	transition: all 0.3s ease-in-out;
+	webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+    border: 1px solid #DCDCDC;	
+    border-radius: 50% 50%;
+}
+.icon-facebook {
+    background-position: -33px 0px;
+}
+a:hover .icon-facebook {
+    background-position: -33px -35px;
+    background-color: #1867A9;
+    border: 1px solid #1867A9;
+}
+.icon-twitter {
+	background-position: -34px -70px;
+}
+a:hover .icon-twitter {
+    background-position: -34px -108px;
+    background-color: #54A1E6;
+    border: 1px solid #54A1E6;
+}
+.icon-youtube {
+    background-position: -35px -280px;
+}
+a:hover .icon-youtube {
+    background-position: -35px -316px;
+    background-color: #ba0400;
+    border: 1px solid #ba0400;
+}
+.icon-skype {
+	background-position: -35px -140px;	
+}
+a:hover .icon-skype {
+    background-position: -33px -35px;
+    background-color: #1867A9;
+    border: 1px solid #1867A9;
+}
+.horizontal-heading-line {
+    background-color: #ccc;
+    height: 1px;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: -26px;
+}
+.img-responsive {
+    width: 100%;
+}
+.text-red {
+    color: #BA0400;
+}
+.scrolltop-wrapper {
+    position: fixed;
+    z-index: 100;
+    bottom: 5%;
+    right: 5%;
+    text-align: center;
+}
+.scrolltop-wrapper .btn-arrow-up {
+    border: 3px solid #F15B22;
+    border-radius: 50% 50%;
+    display: inline-block;
+    width: 50px;
+    padding: 7px 11px;
+    font-size: 21px;
+    background: rgba(238, 238, 238, 0.8);
+    cursor: pointer;
+    color: #F15B22;
+}
+/* ---------* end: Custom *----------- */
+
+
+/* ---------* Override Bootstrap *---- */
+#animated-navbar-toggle {
+	float: right;
+}
+.tcon-grid .tcon-grid__item {
+    background: #fff;
+    color: #fff;
+}
+.navbar {
+	min-height: 1px;
+}
+.nav > li > a:hover, 
+.nav > li > a:focus,
+.nav > li.active > a
+{
+	text-decoration: none;
+    /*background-color: #BA0400;*/
+    background-color: #156CA9;
+    color: #fff !important;
+}
+.nav .open > a, 
+.nav .open > a:focus,
+.nav .open > a:hover {
+    background-color: #156CA9;
+    color: #fff !important;
+}
+.dropdown-submenu-list {
+    background: rgba(255,255,255,0.8);
+}
+.dropdown-submenu-list li a {
+    color: #101010 !important;
+}
+.dropdown-submenu-list li a:hover {
+    color: #fff !important;
+    background-color: #156CA9;
+}
+/* ---------* end: Override *--------- */

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: raleway-reg;
+    src: url('../fonts/Raleway-Regular.ttf')  format('truetype');
+}
+@font-face {
+    font-family: raleway-md;
+    src: url('../fonts/Raleway-Medium.ttf')  format('truetype');
+}
+@font-face {
+    font-family: raleway-it;
+    src: url('../fonts/Raleway-Italic.ttf')  format('truetype');
+}
+@font-face {
+    font-family: raleway-bd;
+    src: url('../fonts/Raleway-Bold.ttf')  format('truetype');
+}
+@font-face {
+    font-family: opensans-reg;
+    src: url('../fonts/OpenSans-Regular.ttf')  format('truetype');
+}
